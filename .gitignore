@@ -1,0 +1,22 @@
+# Ignore .terraform directories and local state files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files (local-only Terraform overrides)
+*.tfvars
+*.tfvars.json
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore provider plugins (downloaded by Terraform)
+.terraformrc
+terraform.rc
+
+# Ignore the .aws directory containing credentials and config files
+.aws/
