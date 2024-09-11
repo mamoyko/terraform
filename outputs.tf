@@ -9,3 +9,11 @@ output "vpc_id" {
   description = "The ID of the default VPC"
   value       = data.aws_vpc.default.id
 }
+
+output "dynamodb_table_id" {
+  value = aws_dynamodb_table.terraform_locks.id
+}
+
+output "tfstate-dev" {
+  value = aws_s3_bucket.s3.bucket
+}

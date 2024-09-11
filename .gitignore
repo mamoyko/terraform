@@ -20,3 +20,4 @@ terraform.rc
 
 # Ignore the .aws directory containing credentials and config files
 .aws/
+.terraform.tfstate.lock.info
